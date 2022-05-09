@@ -20,4 +20,4 @@ jobs:
           SLACK_TITLE: The workflow ${{ github.event.workflow.name }} run failed
           SLACK_USERNAME: Network-Monorepo-GitAction
           SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
-          SLACK_MSG_AUTHOR: ${{ github.event.workflow_run.workflow_url.head_commit.commiter.name }}
+          SLACK_MSG_AUTHOR: ${{ github.event.workflow_run.workflow_url.head_commit.committer.name }}
